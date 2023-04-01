@@ -101,15 +101,15 @@ var Motorcycle = /** @class */ (function (_super) {
     return Motorcycle;
 }(Vehicle));
 // Sample usage
-var car = new Car("Toyota", "Corolla", 2022, false, 5);
+var car = new Car("Honda", "Civic 2023", 2022, false, 5);
 console.log(car.rent());
 console.log(car.rent());
 console.log(car.return());
 console.log(car.return());
-var truck = new Truck("Cultus", "Car", 2021, false, 1000);
+var truck = new Truck("Chevrolet Silverado", "Car4500", 2021, false, 1000);
 console.log(truck.rent());
 console.log(truck.return());
-var motorcycle = new Motorcycle("BMW", "Sportster", 2020, false, 883);
+var motorcycle = new Motorcycle("Yamaha", "R15 V4", 2020, false, 883);
 console.log(motorcycle.rent());
 console.log(motorcycle.return());
 var RentalSystem = /** @class */ (function () {
